@@ -225,6 +225,7 @@
 }
 
 
-header-global{
-  background-color: rgb(233, 237, 232);
+.home > header{
+  background-image: url("https://lagunita.stanford.edu/static/lagunita/images/header-panorama.e152061398c0.jpg");
+  background-size: cover;
 }
