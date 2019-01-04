@@ -226,7 +226,7 @@
 
 
 .home > header{
-  background-image: url("../lagunita/lms/static/images/leadr-girls.jpg");
+  background-image: url("/static/lagunita/images/leadr-girls.jpg");
   background-size: cover;
 }
 
