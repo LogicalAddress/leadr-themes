@@ -108,14 +108,30 @@
                       <div class="row">
                         <div class="col-lg-12 col-md-12 column-3-2 column-styles">
                              <ul class="list-inline list-unstyled social">
-                                    % for link in footer['social_links']:
                                     <li>
-                                        <a href="${link['url']}" class="social-links external" title="${link['title']}" rel="noreferrer">
-                                            <span class="icon fa ${link['icon-class']}" aria-hidden="true"></span>
-                                            <span class="sr">${link['action']}</span>
-                                        </a>
-                                    </li>
-                                    % endfor
+                                            <a href="https://facebook.com/HDDInitiative" class="social-links external" title="Facebook" rel="noreferrer">
+                                                <span class="icon fa fa-facebook-square" aria-hidden="true"></span>
+                                                <span class="sr">Like Leadr on Facebook</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/girlchilddiary" class="social-links external" title="Twitter" rel="noreferrer">
+                                                <span class="icon fa fa-twitter-square" aria-hidden="true"></span>
+                                                <span class="sr">Follow Leadr on Twitter</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCXT7KzyAMMrlX0Ak11_mQUw?app=desktop" class="social-links external" title="Youtube" rel="noreferrer">
+                                                <span class="icon fa fa-youtube-square" aria-hidden="true"></span>
+                                                <span class="sr">Subscribe to the Leadr YouTube channel</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/company/her-dear-diary-initiative" class="social-links external" title="LinkedIn" rel="noreferrer">
+                                                <span class="icon fa fa-linkedin-square" aria-hidden="true"></span>
+                                                <span class="sr">Follow Leadr on LinkedIn</span>
+                                            </a>
+                                        </li>
                              </ul>
                             <ul class="list-inline list-unstyled app-links">
                                     % for link in footer['mobile_links']:
